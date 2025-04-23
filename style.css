@@ -197,14 +197,18 @@ h2 {
     height: auto;
     padding: 24px 16px;
   }
+  .esquerda {
+    padding-right: 25px;
+  }
   .esquerda h2 {
-    font-size: 1.6rem;
+    font-size: clamp(1.3rem, 5vw, 1.9rem);
     text-align: center;
   }
   .direita img {
     height: auto;
     width: 100%;
     max-width: 240px;
+    margin-left:50px
   }
   .skills ul {
     grid-template-columns: 1fr;
@@ -213,11 +217,15 @@ h2 {
     width: 100%;
     max-width: 250px;
   }
+  #sec1 > #sec1inside > h2 {
+    font-size: clamp(0.8rem,3vw,1.1rem);
+  }
 }
 
 @media (max-width: 480px) {
   .title {
-    font-size: 1.3rem;
+    font-size: clamp(1.5rem,3vw,1.7rem);
+    line-height: 27px;
   }
   .esquerda p {
     text-align: center;
