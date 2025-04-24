@@ -84,6 +84,11 @@ body {
   box-shadow: 0 4px 16px rgba(11, 59, 95, 0.1);
   margin-bottom: 30px;
   gap: 20px;
+  transition: 0.3s ease
+}
+
+.sec2:hover{
+  transform: translateY(-5px);
 }
 .esquerda {
   flex: 1.05;
@@ -126,10 +131,15 @@ body {
   color: #0b3b5f;
   box-shadow: 0 4px 16px rgba(11, 59, 95, 0.1);
   margin-bottom: 30px;
+  transition: 0.3s ease;
 }
 .sec3 > p {
   color: #444;
   text-align: justify;
+}
+
+.sec3:hover{
+  transform: translateY(-5px);
 }
 
 /* HABILIDADES */
@@ -155,6 +165,11 @@ body {
   backdrop-filter: blur(10px);
   color: #444;
   box-shadow: 0 4px 16px rgba(11, 59, 95, 0.1);
+  transition: 0.3s ease;
+}
+
+.skills li:hover{
+  transform: translateY(-5px);
 }
 
 /* CONTATOS */
@@ -176,10 +191,10 @@ body {
   padding: 12px 20px;
   border-radius: 8px;
   font-weight: bold;
-  transition: background 0.3s ease;
+  transition: 0.3s ease;
 }
 .btn:hover {
-  background-color: #093452;
+  background-color: #04253d;
 }
 
 /* TÍTULOS GERAIS */
