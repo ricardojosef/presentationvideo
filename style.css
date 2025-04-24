@@ -213,7 +213,8 @@ h2 {
     padding: 24px 16px;
   }
   .esquerda {
-    padding-right: 25px;
+    padding-right: 3px;
+    padding-left:3px;
   }
   .esquerda h2 {
     font-size: clamp(1.3rem, 5vw, 1.9rem);
